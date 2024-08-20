@@ -1,0 +1,11 @@
+import HelloWorld from "./HelloWorld";
+import { Canvas, Meta } from '@storybook/blocks';
+import * as HelloWorldStories from './HelloWorld.stories.tsx';
+
+<Meta of={HelloWorldStories} />
+
+# Hello World
+
+This is a simple example of a component that displays a greeting.
+
+<Canvas useOf={HelloWorld} withToolbar />
